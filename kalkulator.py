@@ -137,7 +137,7 @@ def main():
         logging.info(f'Wynik dzielenia to: {wynik}.')
     
     else:
-        logging.info("Nie wybrałeś żadnego z dostępnych działań.")
+        logging.warning("Nie wybrałeś żadnego z dostępnych działań.")
     
     input('By zakończyć naciśnij Enter.')
 
